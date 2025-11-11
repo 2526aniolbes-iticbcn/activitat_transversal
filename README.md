@@ -1,2 +1,2 @@
-# Salvar al soldado Ryan
-## Xavi López i Aniol Bes
+# Salvar al soldado Ryan (1998)
+### Xavi López i Aniol Bes
