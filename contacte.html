@@ -4,8 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactar - Salvar al soldado Ryan</title>
+    <link rel="stylesheet" href="css/estil_contacte.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action=""></form>
+    <nav>
+        <ul class="menu">
+            <li><a href="personatges.html">Personatges</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="nosaltres.html">Nosaltres</a></li>
+            <li><a href="premis.html">Premis</a></li>
+            <li><a href="contacte.html">Contactar</a></li>
+        </ul>
+    </nav>
+
+    <form action="contacte_enviat.html">
+        <h1>Canal de contacte</h1>
+        <label for="email" class="primer">Email</label>
+        <input type="email" name="correu" id="correu" required><br>
+
+        <label for="nom_cognoms" class="primer">Nom i cognoms</label>
+        <input type="text" name="nom_cognoms" id="nom_cognoms" required><br>
+
+        <label for="edat" class="primer">Edat</label>
+        <input type="number" name="edat" id="edat" required>
+
+        <h3>Tipus de contacte</h3>
+        
+        <input type="radio" name="incidencia" id="incidencia" checked>
+        <label for="incidencia">Incidencia</label><br>
+        <input type="radio" name="sugerencia" id="sugerencia">
+        <label for="sugerencia">Sugerencia</label><br>
+        <input type="radio" name="agraiment" id="agraiment">
+        <label for="agraiment">Agraiment</label><br>
+
+        <label for="idioma">Idioma</label>
+        <select name="idioma" id="idioma">
+            <option value="primer">Català</option>
+            <option value="angles">Anglès</option>
+            <option value="castella">Castellà</option>
+        </select>
+
+        <h3>Com ens has conegut?</h3>
+        <input type="checkbox" name="ia" id="ia" checked>
+        <label for="ia">Intel·ligència artificial</label><br>
+        <input type="checkbox" name="computació" id="computació">
+        <label for="computació">Computació quàntica</label><br>
+        <input type="checkbox" name="supercomputadors" id="supercomputadors">
+        <label for="supercomputadors">Supercomputadors</label><br>
+        <input type="checkbox" name="recerca" id="recerca">
+        <label for="recerca">Recerca en algorísma</label>
+
+        <p>Explica'ns!</p>
+        <textarea name="méstext" id="méstext" placeholder="Crec que seria interessant afegir que al minut 23 hi apareix l'actor..."></textarea><br>
+
+        <button type="submit">Enviar!</button>
+    </form>  
 </body>
 </html>
