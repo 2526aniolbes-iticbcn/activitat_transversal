@@ -1,8 +1,11 @@
 #imatges_galeria {
     display: flex;
+    flex-wrap: wrap;
     margin: 10px;
-    flex-wrap: initial;
     gap: 15px;
-    width: 250;
-    height: 250px;
+    max-width: 900px;
+}
+#imatges_galeria img {
+    width: 280px;
+    height: 150px;
 }

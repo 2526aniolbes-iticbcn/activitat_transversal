@@ -1,0 +1,19 @@
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 8px;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
