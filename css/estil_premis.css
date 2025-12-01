@@ -10,10 +10,3 @@ th, td {
     border: 1px solid;
     padding: 8px;
 }
-
-caption {
-    caption-side: top;
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
